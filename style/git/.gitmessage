@@ -1,4 +1,4 @@
-${branch_name}: <type>(<scope>): <subject>
+branch_name: <type>(<scope>): <subject>
 # <body>
 # <footer>
 
