@@ -1,10 +1,7 @@
-
-# <type>(<scope>): <subject>
-#
+${branch_name}: <type>(<scope>): <subject>
 # <body>
-#
 # <footer>
-#
+
 # ** TYPES **
 # feat (new feature)
 # fix (bug fix)
@@ -13,7 +10,7 @@
 # refactor (refactoring production code)
 # test (adding missing tests, refactoring tests; no production code change)
 # chore (updating grunt tasks etc; no production code change)
-#
+
 # ** FOOTERS **
 # References #1, #4, and #2.
 # Fix #1. note this marks the item as accepted in Sprintly
@@ -22,7 +19,6 @@
 # ** Funtip **
 # Work hard, play hard!  Consider prefixing your commit messages with a relevant emoji for 
 # great good:
-#
 #   :art: `:art:` when improving the format/structure of the code
 #   :racehorse: `:racehorse:` when improving performance
 #   :non-potable_water: `:non-potable_water:` when plugging memory leaks
