@@ -1,5 +1,5 @@
 ## ** TEMPLATE **
-# <type>(<scope>): <subject>
+# <type> (<scope>): <subject>
 # <body>
 
 ## ** RULES ** 
@@ -14,15 +14,17 @@
 
 # ** TYPES **
 # feat (new feature)
-# fix (bug fix)
+# task (new task)
+# bug (bug fix)
+# defect (defect fix)
 # docs (changes to documentation)
 # style (formatting, missing semi colons, etc; no code change)
 # refactor (refactoring production code)
 # test (adding missing tests, refactoring tests; no production code change)
 # chore (updating grunt tasks etc; no production code change)
 
-#  ** Examples**
-#   feat (checkout): Remove unused container elements
-#   test (gui-tests): Update not working gui-tests
-#   feat: Migrate to webpack2
+#  ** EXAMPLES **
+# feat (checkout): Remove unused container elements
+# test (gui-tests): Update not working gui-tests
+# feat: Migrate to webpack2
 
