@@ -1,3 +1,6 @@
     hooks:
-        - id: prepare-commit-msg
-          entry: ./config/git/prepare-commit-msg
+        -   id: prepare-commit-msg
+            entry: ./config/git/prepare-commit-msg
+            name: Prepare commit messages
+            description: Prepare commit messages
+            language: python
