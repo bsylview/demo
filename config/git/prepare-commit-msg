@@ -4,7 +4,7 @@ BRANCH_NAME=$(git symbolic-ref --short HEAD)
 BRANCH_NAME="${BRANCH_NAME##*/}"
 BRANCH_IN_COMMIT=$(grep -c "\[$BRANCH_NAME\]" $1)
 
-if [ $DEVELOP_BRANCH == $BRANCH_NAME ]; then 
+if [ "$DEVELOP_BRANCH" == "$BRANCH_NAME" ]; then 
   BRANCH_NAME="master/NO-TASK"
 fi
 
