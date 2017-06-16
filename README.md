@@ -9,3 +9,7 @@ https://chris.beams.io/posts/git-commit/
   3. git config --global commit.template ~/.gitmessage
   4. git commit
   
+# Resources
+   1. https://dev.to/ebud7/how-to-customise-your-git-commit-message-
+   2. https://github.com/marick/pre-commit-hooks
+   3. https://github.com/sparkbox/standard/tree/master/style/git
