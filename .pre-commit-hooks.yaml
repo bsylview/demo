@@ -1,0 +1,6 @@
+-   id: prepare-commit-msg
+    name: prepare-commit-msg
+    description: add TASK-NO to git commit message template
+    entry: config/git/prepare-commit-msg
+    language: script
+    files: ''
