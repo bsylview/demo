@@ -5,4 +5,5 @@
 	autocrlf = input
 [commnit]
     template=./config/git/.gitmessage
+	
 
