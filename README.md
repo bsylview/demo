@@ -8,3 +8,4 @@ https://chris.beams.io/posts/git-commit/
   2. chmod +x ./git/hooks/prepare-commit-msg
   3. git config --global commit.template ~/.gitmessage
   4. git commit
+  
