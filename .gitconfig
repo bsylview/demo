@@ -1,2 +1,7 @@
+[user]
+	name = Silviu Boldeanu
+	email = sboldeanu@gmail.com
+[core]
+	autocrlf = input
 [commnit]
     template=./config/git/.gitmessage
