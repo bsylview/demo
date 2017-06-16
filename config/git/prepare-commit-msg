@@ -11,3 +11,5 @@ fi
 if [ -n "$BRANCH_NAME" ] && ! [[ $BRANCH_IN_COMMIT -ge 1 ]]; then 
   sed -i.bak -e "1s/^/$BRANCH_NAME: /" $1
 fi
+
+#as
