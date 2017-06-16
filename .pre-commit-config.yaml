@@ -1,0 +1,3 @@
+    hooks:
+        - id: prepare-commit-msg
+          entry: ./config/git/prepare-commit-msg

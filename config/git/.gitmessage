@@ -1,0 +1,29 @@
+<type> (<scope>): <subject>
+# <body>
+
+
+## ** RULES ** 
+# Separate subject from body with a blank line
+# Limit the subject line to 50 characters
+# Capitalize the subject line
+# Do not end the subject line with a period
+# Use the imperative mood in the subject line
+# Wrap the body at 72 characters
+# Use the body to explain what and why vs. how
+
+# ** TYPES **
+# feat (new feature)
+# task (new task)
+# bug (bug fix)
+# defect (defect fix)
+# docs (changes to documentation)
+# style (formatting, missing semi colons, etc; no code change)
+# refactor (refactoring production code)
+# test (adding missing tests, refactoring tests; no production code change)
+# chore (updating grunt tasks etc; no production code change)
+
+#  ** EXAMPLES **
+# feat (checkout): Remove unused container elements
+# test (gui-tests): Update not working gui-tests
+# feat: Migrate to webpack2
+
