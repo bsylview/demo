@@ -1,15 +1,14 @@
 #!/bin/sh
 DEVELOP_BRANCH="master";
 BRANCH_NAME=$(git symbolic-ref --short HEAD)
-BRANCH_NAME="${BRANCH_NAME##*/}"
-BRANCH_IN_COMMIT=$(grep -c "\[$BRANCH_NAME\]" $1)
 
 if [ "$DEVELOP_BRANCH" == "$BRANCH_NAME" ]; then 
-  BRANCH_NAME="NO-TASK"
+  BRANCH_NAME="master/NO-TASK"
 fi
+
+BRANCH_NAME="${BRANCH_NAME##*/}"
+BRANCH_IN_COMMIT=$(grep -c "\[$BRANCH_NAME\]" $1)
 
 if [ -n "$BRANCH_NAME" ] && ! [[ $BRANCH_IN_COMMIT -ge 1 ]]; then 
   sed -i.bak -e "1s/^/$BRANCH_NAME: /" $1
 fi
-
-#as
