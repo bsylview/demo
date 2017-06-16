@@ -3,4 +3,4 @@
             entry: ./config/git/prepare-commit-msg
             name: Prepare commit messages
             description: Prepare commit messages
-            language: python
+            language: script
